@@ -1,0 +1,36 @@
+)" layoutpos="top" margin="rect(0rp,0rp,20rp,0rp)">
+<element layoutpos="client" layout="flowlayout(0,2,0,2)" padding="rect(0rp,5rp,5rp,5rp)">
+<element id="atom(divider)" class="cp_content_divider_line" width="5000rp" margin="rect(0rp,0rp,5rp,0rp)"/>
+</element>
+</Element>
+<Element layout="BorderLayout()" layoutpos="top" padding="rect(0rp,10rp,0rp,0rp)">
+<button id="atom(RestoreDefaults_link)" content="resstr(112)" accname="resstr(112)" layoutpos="left" class="cp_content_link" active="mouse | keyboard" enabled="true" accdefaction="click"/>
+</Element>
+</element>
+</element>
+</Element>
+</Element>
+</Element>
+</ScrollViewer>
+<Element layoutpos="bottom" height="52rp" bordercolor="themeable(gtc(CONTROLPANELSTYLE,17,0,3821),windowframe)" background="themeable(dtb(CONTROLPANEL,12,0),window)" layout="FlowLayout(0,0,2,2)" sheet="cp_style" class="cp_topbox">
+<Element layoutpos="client" width="700rp" layout="BorderLayout()" padding="rect(0rp,10rp,10rp,0rp)">
+<Element layoutpos="client" layout="FlowLayout(1,0,1,2)">
+<CCPushButton id="atom(ButtonSave)" content="resstr(633)" enabled="false" margin="rect(10rp,0rp,10rp,0rp)" active="keyboard|mouse" Accessible="true" accDefAction="resstr(646)" accName="resstr(32)" accRole="pushbutton"/>
+<CCPushButton id="atom(ButtonCancel)" content="resstr(634)" margin="rect(0rp,0rp,10rp,0rp)" Accessible="true" accDefAction="resstr(647)" accName="resstr(28)" accRole="pushbutton"/>
+</Element>
+</Element>
+</Element>
+</InternationalSettingsPage>
+<stylesheets>
+<style resid="cp_style">
+<Button accessible="true" contentalign="wrapleft"/>
+<Element overhang="false" background="argb(0,0,0,0)"/>
+<NavigateButton overhang="false" background="argb(0,0,0,0)"/>
+<CCPushButton transparent="true" accessible="true" minsize="size(76rp,23rp)" font="gtf(CONTROLPANELSTYLE,14,0)" margin="rect(6rp,0rp,0rp,0rp)"/>
+<CCCheckBox transparent="true" accessible="true" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" background="themeable(dtb(CONTROLPANEL,2,0),window)"/>
+<ComboBox transparent="true" accessible="true" font="gtf(CONTROLPANELSTYLE,14,0)"/>
+<CCRadioButton transparent="true" accessible="true" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" background="themeable(dtb(CONTROLPANEL,2,0),window)"/>
+<CCSysLink transparent="true" accessible="true" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)" background="themeable(dtb(CONTROLPANEL,2,0), window)"/>
+<Edit transparent="true" themedborder="true" width="120rp" accessible="true" accrole="text" height="20rp" font="gtf(CONTROLPANELSTYLE,6,0)" foreground="gtc(CONTROLPANELSTYLE,6,0,3803)"/>
+<if class="cp_topbox">
+<Element accessible="true" accrole="client" backgrou

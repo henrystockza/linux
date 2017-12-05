@@ -1,0 +1,43 @@
+background_color": "plugin-background-color"
+            },
+            "image-stop": {
+                "bitmap_source": "images\\i_stop.png",
+                "background_color": "plugin-background-color"
+            },
+            "f12-network-image-status-ok": {
+                "bitmap_source": "Images/NetworkStatus-OK.png",
+                "background_color": "plugin-background-color"
+            },
+            "f12-network-image-status-error": {
+                "bitmap_source": "Images/NetworkStatus-Error.png",
+                "background_color": "plugin-background-color"
+            },
+            "f12-network-image-status-warning": {
+                "bitmap_source": "Images/NetworkStatus-Warning.png",
+                "background_color": "plugin-background-color"
+            },
+            "vs-image-graph-user-mark": {
+                "bitmap_source": "Images/i_usermark.png",
+                "background_color": "plugin-background-color"
+            },
+            "vs-image-graph-app-event": {
+                "bitmap_source": "Images/i_appevent.png",
+                "background_color": "plugin-background-color"
+            },
+            "vs-image-graph-aggregated-event": {
+                "bitmap_source": "Images/CustomMark5_18x.png",
+                "background_color": "plugin-background-color"
+            }
+        },
+        "file_aliases": {
+            "DiagnosticsHub.DataWarehouseHost": {
+                "path": "DiagnosticsHub.ScriptedSandboxPlugin.dll"
+            }
+        }
+    },
+    "vs": {
+        "resource_aliases": {
+            "Network": {
+                "type": "Embedded",
+                "name": "Microsoft.VisualStudio.WebClient.Diagnostics.HtmlToolHost",
+                "path": "Microsoft.VisualStudio.WebClient.Diagnostics.HtmlToolHo
